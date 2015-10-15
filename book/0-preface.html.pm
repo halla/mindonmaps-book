@@ -1,6 +1,6 @@
 #lang pollen
 
-◊h1{How I got into mind maps}
+◊h1{Preface: How I got into mind maps}
 
 	
 
