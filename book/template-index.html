@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mind on Maps &mdash; expand your memory, index your mind, organize your life</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="styles/tufte.css" />
+<link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
+</head>
+<body>◊->html[doc]
+
+◊(define (toc-item chapter)
+             (->html `(li (span [[class "smallcaps"]]
+                             ,(select-from-metas 'chapter-num chapter) ". "
+                             (a [[href ,(symbol->string chapter)]]
+                                ,(select-from-metas 'title chapter))))))
+
+
+◊(define (toc-item2 x) (->html `(li (a [[href ,(string-append "/" (symbol->string x)) ]],(->html (select-from-doc 'h1 x))))))
+
+<ul>
+◊(map toc-item2 (children 'book/index.html))
+</ul>
+
+</body>
+</html>

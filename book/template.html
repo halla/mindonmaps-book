@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>◊select['h1 doc] | Mind on Maps</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="styles/tufte.css" />
+<link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
+</head>
+<body>◊->html[doc]
+
+◊(define prev-page (previous here))
+◊(define prev-title (->html (select-from-doc 'h1 prev-page)))
+
+
+◊when/block[prev-page]{Previous: 
+<a href="/◊|prev-page|">◊|prev-title|</a>}
+
+◊(define next-page (next here))
+◊(define next-title (->html (select-from-doc 'h1 next-page)))
+
+◊when/block[next-page]{
+Next: <a href="/◊|next-page|">◊|next-title|</a>}
+
+
+<a href="/◊(parent here)">Index</a>
+</body>
+</html>
