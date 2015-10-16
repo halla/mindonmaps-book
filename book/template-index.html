@@ -6,7 +6,9 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles/tufte.css" />
 <link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
 </head>
-<body>◊->html[doc]
+<body>
+<div id="main-content">
+◊->html[doc]
 
 ◊(define (toc-item chapter)
              (->html `(li (span [[class "smallcaps"]]
@@ -20,6 +22,6 @@
 <ul>
 ◊(map toc-item2 (children 'book/index.html))
 </ul>
-
+</div>
 </body>
 </html>

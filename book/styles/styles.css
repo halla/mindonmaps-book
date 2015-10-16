@@ -6,7 +6,7 @@ body { padding-left: 0; width: 100%}
 
 
 h1 { margin-top: 8rem; }
-
+h1#main-title { margin-top: 0 }
 
 .navigation { text-transform: uppercase; letter-spacing:0.04em; margin: 100px 50px 50px; font-size: 1.2rem}
 
