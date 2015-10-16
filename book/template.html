@@ -6,22 +6,24 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles/tufte.css" />
 <link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
 </head>
-<body>◊->html[doc]
+<body>
+<div id="main-content">◊->html[doc]</div>
 
+<div id="footer">
+<div class="navigation">
 ◊(define prev-page (previous here))
 ◊(define prev-title (->html (select-from-doc 'h1 prev-page)))
+◊when/block[prev-page]{ <a href="/◊|prev-page|">&larr; ◊|prev-title|</a>}
 
-
-◊when/block[prev-page]{Previous: 
-<a href="/◊|prev-page|">◊|prev-title|</a>}
+<a href="/◊(parent here)">Top</a>
 
 ◊(define next-page (next here))
 ◊(define next-title (->html (select-from-doc 'h1 next-page)))
-
 ◊when/block[next-page]{
-Next: <a href="/◊|next-page|">◊|next-title|</a>}
+<a href="/◊|next-page|">◊|next-title| &rarr; </a>}
 
 
-<a href="/◊(parent here)">Index</a>
+</div>
+</div>
 </body>
 </html>
