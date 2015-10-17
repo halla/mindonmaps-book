@@ -10,18 +10,23 @@
 <div id="main-content">
 ◊->html[doc]
 
-◊(define (toc-item chapter)
-             (->html `(li (span [[class "smallcaps"]]
-                             ,(select-from-metas 'chapter-num chapter) ". "
-                             (a [[href ,(symbol->string chapter)]]
-                                ,(select-from-metas 'title chapter))))))
+◊(define (toc-item x)
+   (let ([sub-pages (children x)])
+     `(li        
+       (a [[href ,(string-append "/" (symbol->string x)) ]] 
+          ,(->html (select-from-doc 'h1 x)))
+       ,(if sub-pages
+           `(ul ,@(map toc-item sub-pages)
+               )
+           (span)))))
 
+◊(define (toc)
+   (let ([child-pages (children here)])
+     (->html `(ul
+              ,@(map toc-item child-pages)))))
 
-◊(define (toc-item2 x) (->html `(li (a [[href ,(string-append "/" (symbol->string x)) ]],(->html (select-from-doc 'h1 x))))))
+◊toc{}
 
-<ul>
-◊(map toc-item2 (children 'book/index.html))
-</ul>
 </div>
 </body>
 </html>

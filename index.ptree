@@ -1,14 +1,19 @@
 #lang pollen
 
 ◊book/index.html{
-book/0-preface.html
-book/1-introduction.html
-book/2-computer-assisted-thinking.html
-book/3-map-your-life.html
-book/exploring-your-maps.html
-book/working-with-mind-maps.html
-book/ninja-skills.html
-book/sea-monsters.html
-book/resources.html
-book/afterword.html
+ book/0-preface.html
+ book/1-introduction.html
+ book/2-computer-assisted-thinking.html
+ ◊book/3-map-your-life.html{
+   book/self-biography.html
+   book/design-your-future.html
+   book/learn-something-new.html
+   book/start-a-project.html
+ }
+ book/exploring-your-maps.html
+ book/working-with-mind-maps.html
+ book/ninja-skills.html
+ book/sea-monsters.html
+ book/resources.html
+ book/afterword.html
 }
