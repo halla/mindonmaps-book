@@ -26,6 +26,7 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="styles/tufte.css" />
 <link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
+<script type="text/javascript" src="scripts/mousetrap.min.js"></script>
 </head>
 <body>
 <div id="main-content">◊->html[doc]
@@ -41,17 +42,18 @@
 ◊when/block[(not (equal? 'pagetree-root (parent here)))]{ 
 <div id="footer">
   <div class="navigation">
-    ◊when/block[prev-page]{ <a href="/◊|prev-page|">&larr; ◊(page-title prev-page)</a>}
+    ◊when/block[prev-page]{ <a class="prev-link" title="Prev: Left arrow" href="/◊|prev-page|">&larr; ◊(page-title prev-page)</a>}
     
-    <a href="/◊(next 'pagetree-root)">Top</a>
+    <a class="home-link" title="Home: Esc" href="/◊(next 'pagetree-root)">Home</a>
   
     <a href="/◊(parent here)">Up</a>
   
     ◊when/block[next-page]{
-    <a href="/◊|next-page|">◊(page-title next-page) &rarr; </a>}  
+    <a class="next-link" title="Next: Right arrow" href="/◊|next-page|">◊(page-title next-page) &rarr; </a>}  
   </div>
 </div>
 }
 
+<script type="text/javascript" src="scripts/site.js"></script>
 </body>
 </html>
