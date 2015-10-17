@@ -1,6 +1,6 @@
 #lang pollen
 
-◊(define-meta template "template-index.html")
+◊(define-meta template "template.html")
 
 ◊h1{Map your life}
 

@@ -1,6 +1,6 @@
 #lang pollen
 
-◊(define-meta template "template-index.html")
+◊(define-meta template "template.html")
 
 ◊a['href: "#main-title"]{ ◊img['src: "images/centermap_1000.jpeg"] }
 

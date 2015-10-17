@@ -1,4 +1,25 @@
 <html>
+
+◊(define (toc-item x)
+   (let ([sub-pages (children x)])
+     `(li        
+       (a [[href ,(string-append "/" (symbol->string x)) ]] 
+          ,(->html (select-from-doc 'h1 x)))
+       ,(if sub-pages
+           `(ul ,@(map toc-item sub-pages)
+               )
+           (span)))))
+
+◊(define (toc)
+   (let ([child-pages (children here)])
+     (->html `(ul
+              ,@(map toc-item child-pages)))))
+
+◊(define prev-page (previous here))
+◊(define next-page (next here))
+◊(define (page-title page) (->html (select-from-doc 'h1 page)))
+
+
 <head>
 <meta charset="UTF-8">
 <title>◊select['h1 doc] | Mind on Maps</title>
@@ -7,23 +28,30 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
 </head>
 <body>
-<div id="main-content">◊->html[doc]</div>
+<div id="main-content">◊->html[doc]
 
+
+
+</div>
+
+<div id="toc">
+  ◊when/block[(children here)]{ ◊toc{} }
+</div>
+
+◊when/block[(not (equal? 'pagetree-root (parent here)))]{ 
 <div id="footer">
-<div class="navigation">
-◊(define prev-page (previous here))
-◊(define prev-title (->html (select-from-doc 'h1 prev-page)))
-◊when/block[prev-page]{ <a href="/◊|prev-page|">&larr; ◊|prev-title|</a>}
-
-<a href="/◊(parent here)">Top</a>
-
-◊(define next-page (next here))
-◊(define next-title (->html (select-from-doc 'h1 next-page)))
-◊when/block[next-page]{
-<a href="/◊|next-page|">◊|next-title| &rarr; </a>}
-
-
+  <div class="navigation">
+    ◊when/block[prev-page]{ <a href="/◊|prev-page|">&larr; ◊(page-title prev-page)</a>}
+    
+    <a href="/◊(next 'pagetree-root)">Top</a>
+  
+    <a href="/◊(parent here)">Up</a>
+  
+    ◊when/block[next-page]{
+    <a href="/◊|next-page|">◊(page-title next-page) &rarr; </a>}  
+  </div>
 </div>
-</div>
+}
+
 </body>
 </html>
