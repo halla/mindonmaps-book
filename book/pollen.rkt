@@ -8,3 +8,5 @@
 (provide root)
 
 
+(define (page-class name-string) (string-downcase (string-replace name-string " " "-")))
+(provide page-class)

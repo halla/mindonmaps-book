@@ -1,13 +1,28 @@
 
 body { padding-left: 0; width: 100%}
 
-#main-content { padding-left: 12.5%; width: 87.5%;  max-width: 1400px;}
+#header {  padding-left: 12.5%;  padding-top: 5px; margin: auto; color: #ccc; }
+
+
+#main-content { padding-left: 12.5%;width: 87.5%;  max-width: 1400px;}
 #toc { padding-left: 15%;  }
 
+#footer { color: #555; }
 
-h1 { margin-top: 8rem; }
-h1#main-title { margin-top: 0 }
+#footer .page-meta { text-transform: uppercase; letter-spacing: 0.04em;  padding-left: 12.5%;margin: 200px 0 50px 0; color: #999}
+#footer .page-meta a:link, #footer .page-meta a:visited { background: none; }
+#footer .page-meta a:hover { color: #aaa; }
 
-.navigation { text-transform: uppercase; letter-spacing:0.04em; margin: 100px 50px 50px; font-size: 1.2rem}
+h1 { margin-top: 20vh; }
+h1#main-title { margin-top: 0; text-transform: uppercase; letter-spacing: 0.04em; }
+.tagline {  text-transform: uppercase; letter-spacing: 0.05em; font-size: 1rem; margin-bottom: 50px}
+
+
+.navigation { text-transform: uppercase; letter-spacing:0.04em; margin: 150px 100px 100px; font-size: 1.2rem}
 
 .navigation a { margin: 30px 30px }
+.navigation .home-link, navigation .top-link { font-size: 0.8em}
+
+
+/* Page specific */
+body.mind-on-maps .navigation { text-align:right; padding-right: 12.5%; }

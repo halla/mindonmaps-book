@@ -29,7 +29,8 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
 <script type="text/javascript" src="scripts/mousetrap.min.js"></script>
 </head>
-<body>
+<body class="◊page-class[(->html (select-from-doc 'h1 here))]">
+
 <div id="main-content">◊->html[doc]
 
 
@@ -44,15 +45,16 @@
 <div id="footer">
   <div class="navigation">
     ◊when/block[prev-page]{ <a class="prev-link" title="Prev: Left arrow" href="/◊|prev-page|">&larr; ◊(page-title prev-page)</a>}
-
+    
     ◊when/block[(not (equal? 'pagetree-root (parent here)))]{    
     <a class="home-link" title="Home: Esc" href="/◊(next 'pagetree-root)">Home</a>
     ◊when/block[(not (equal? 'pagetree-root (parent (parent here))))]{    
-    <a href="/◊(parent here)">Up</a>
+    <a class="up-link" href="/◊(parent here)">Up</a>
     }}
     ◊when/block[next-page]{
     <a class="next-link" title="Next: Right arrow" href="/◊|next-page|">◊(page-title next-page) &rarr; </a>}  
   </div>
+  <div class="page-meta"><span class="book-title"><a href="/">Mind on Maps</a></span> — expand your memory, index your mind, organize your life</div>
 </div>
 
 
