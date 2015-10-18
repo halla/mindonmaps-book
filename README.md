@@ -2,9 +2,9 @@
 
 Expand your memory, index your mind, organize your life &mdash; computer assisted thinking with mind maps.
 
-Book writing project, using [Pollen](http://pollenpub.com/), a racket based publishing system.
+Book writing project, using [Pollen](http://pollenpub.com/), a [Racket](http://racket-lang.org/) based publishing system.
 
-There is no book site deployed yet. In the meantime, check out the blog at http://mindonmaps.com/
+Book website: http://mindonmaps.com/book/
 
 
 Text and images © Antti Halla
