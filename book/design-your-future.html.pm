@@ -2,7 +2,7 @@
 
 ◊h1{Design your future}
 
- didn’t plan ahead much back when I was studying at university. I ended up studying computer science, even though it wasn’t my first choice. Many others were quite lost with their life plans, but some had put more thought into them than others. I started to get a bit annoyed by these people because they got so much more done than I did, and made it all seem so effortless. By their freshmen year they already had well paid jobs, and still got their studies done faster, while taking breaks to travel around the world or having a whole exchange year in some cool country abroad. One thing these people had in common was that they knew exactly what they wanted to do, and they knew it a long time in advance.
+I didn’t plan ahead much back when I was studying at university. I ended up studying computer science, even though it wasn’t my first choice. Many others were quite lost with their life plans, but some had put more thought into them than others. I started to get a bit annoyed by these people because they got so much more done than I did, and made it all seem so effortless. By their freshmen year they already had well paid jobs, and still got their studies done faster, while taking breaks to travel around the world or having a whole exchange year in some cool country abroad. One thing these people had in common was that they knew exactly what they wanted to do, and they knew it a long time in advance.
 
 They planned ahead.
 

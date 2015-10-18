@@ -30,7 +30,15 @@
 <script type="text/javascript" src="scripts/mousetrap.min.js"></script>
 </head>
 <body class="◊page-class[(->html (select-from-doc 'h1 here))]">
-
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T6QG62"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','◊|gtm-tag|');</script>
+<!-- End Google Tag Manager -->
 <div id="main-content">◊->html[doc]
 
 
@@ -49,7 +57,7 @@
     ◊when/block[(not (equal? 'pagetree-root (parent here)))]{    
     <a class="home-link" title="Home: Esc" href="/◊(next 'pagetree-root)">Home</a>
     ◊when/block[(not (equal? 'pagetree-root (parent (parent here))))]{    
-    <a class="up-link" href="/◊(parent here)">Up</a>
+    <a class="chapter-link" href="/◊(parent here)">Chapter</a>
     }}
     ◊when/block[next-page]{
     <a class="next-link" title="Next: Right arrow" href="/◊|next-page|">◊(page-title next-page) &rarr; </a>}  

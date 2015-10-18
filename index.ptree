@@ -2,7 +2,9 @@
 
 ◊book/index.html{
  book/0-preface.html
- book/1-introduction.html
+ ◊book/1-introduction.html{
+   book/how-to-use-this-book.html
+ }
  book/2-computer-assisted-thinking.html
  ◊book/3-map-your-life.html{
    book/self-biography.html
@@ -14,6 +16,5 @@
  book/working-with-mind-maps.html
  book/ninja-skills.html
  book/sea-monsters.html
- book/resources.html
  book/afterword.html
 }

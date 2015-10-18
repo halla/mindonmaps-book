@@ -14,7 +14,7 @@ Mousetrap.bind('right', function() {
 });
 
 Mousetrap.bind('alt+up', function() {
-  var link = document.querySelector('a.up-link');
+  var link = document.querySelector('a.chapter-link');
   if (link == null) {
     link = document.querySelector('a.home-link');
   }
