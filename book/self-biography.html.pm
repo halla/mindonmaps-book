@@ -1,6 +1,6 @@
 #lang pollen
 
-◊h1{Self biography}
+◊h1{Self-biography excercise}
 
 Two acquaintances meet after years. The other one can’t remember their last meeting while the other one cheerfully says: ◊em{“Oh yes, it was the Summer of 2005, we met in that cafe in London, on a Friday afternoon as I was returning home from work.}  Which one reminds you of yourself?
 
