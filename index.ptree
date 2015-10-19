@@ -2,18 +2,19 @@
 
 ◊book/index.html{
  book/0-preface.html
- ◊book/1-introduction.html{
-   book/how-to-use-this-book.html
+ ◊book/introduction/index.html{
+   book/introduction/fast-flexible-scalable-thinking-tool.html
+   book/introduction/how-to-use-this-book.html
  }
  book/2-computer-assisted-thinking.html
- ◊book/3-map-your-life.html{
-   book/self-biography.html
-   book/design-your-future.html
-   book/learn-something-new.html
-   book/start-a-project.html
+ ◊book/map-your-life/index.html{
+   book/map-your-life/self-biography.html
+   book/map-your-life/define-your-future.html
+   book/map-your-life/learn-something-new.html
+   book/map-your-life/start-a-project.html
  }
- book/exploring-your-maps.html
  book/working-with-mind-maps.html
+ book/exploring-your-maps.html
  book/ninja-skills.html
  book/sea-monsters.html
  book/afterword.html
