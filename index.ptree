@@ -3,19 +3,48 @@
 ◊book/index.html{
  book/0-preface.html
  ◊book/introduction/index.html{
-   book/introduction/fast-flexible-scalable-thinking-tool.html
    book/introduction/how-to-use-this-book.html
+   book/introduction/computer-assisted-thinking.html
+   book/introduction/memory-card-for-the-brain.html
+   book/introduction/index-to-your-mind.html
+   book/introduction/mind-map-as-a-tool.html
+   book/introduction/fast-flexible-scalable-thinking-tool.html
+   book/introduction/map-example-writing-a-book.html
  }
- book/2-computer-assisted-thinking.html
  ◊book/map-your-life/index.html{
    book/map-your-life/self-biography.html
    book/map-your-life/define-your-future.html
    book/map-your-life/learn-something-new.html
    book/map-your-life/start-a-project.html
  }
- book/working-with-mind-maps.html
+ ◊book/working-with-mind-maps/index.html{
+   book/working-with-mind-maps/information-filing.html
+   book/working-with-mind-maps/orientation.html
+   book/working-with-mind-maps/refactoring.html
+   book/working-with-mind-maps/moving-between-maps.html
+   book/working-with-mind-maps/maintenance.html
+   book/working-with-mind-maps/evolution.html
+   book/working-with-mind-maps/revolution.html
+   book/working-with-mind-maps/review-reflect.html
+ }
+ ◊book/principles/index.html{
+   book/principles/locality.html
+   book/principles/information-hiding.html
+   book/principles/modularity.html
+   book/principles/similarity.html
+   book/principles/top-down-bottom-up.html
+ }
  book/exploring-your-maps.html
- book/ninja-skills.html
- book/sea-monsters.html
+ ◊book/ninja-skills/index.html{
+ 
+ }
+ ◊book/here-be-dragons/index.html{
+   book/here-be-dragons/dinosaurs.html
+   book/here-be-dragons/all-eaters.html
+   book/here-be-dragons/sphinx-of-philosophy.html
+   book/here-be-dragons/windmills-of-word-definitions.html
+   book/here-be-dragons/personal-demons.html
+   book/here-be-dragons/archaeological-findings.html
+ }
  book/afterword.html
 }
