@@ -12,13 +12,16 @@ ol,ul { width: 75% }
 
 
 #main-content { padding-left: 12.5%;width: 87.5%;  max-width: 1400px; margin-top: 20vh;}
-#toc { padding-left: 15%;  }
+#toc { padding-left: 15%; margin-top: 40px  }
 
-#toc ul.level-1 > li { margin-bottom: 30px }
+#toc ul.level-1 > li { margin-bottom: 30px; text-transform: uppercase; letter-spacing: 0.04em,}
 #toc ul.level-2 {
  -webkit-column-count: 2;
     -moz-column-count: 2;
          column-count: 2;
+}
+#toc ul.level-2 > li {
+    text-transform: none;
 }
 
 

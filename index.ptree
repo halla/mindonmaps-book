@@ -5,10 +5,10 @@
  ◊book/introduction/index.html{
    book/introduction/how-to-use-this-book.html
    book/introduction/computer-assisted-thinking.html
+   book/introduction/fast-flexible-scalable.html
    book/introduction/memory-card-for-the-brain.html
    book/introduction/index-to-your-mind.html
    book/introduction/mind-map-as-a-tool.html
-   book/introduction/fast-flexible-scalable-thinking-tool.html
    book/introduction/map-example-writing-a-book.html
  }
  ◊book/map-your-life/index.html{
