@@ -6,11 +6,22 @@ margin-top: 80px;
 margin-bottom: 80px;}
 
 
+ol,ul { width: 75% }
+
 #header {  padding-left: 12.5%;  padding-top: 5px; margin: auto; color: #ccc; }
 
 
 #main-content { padding-left: 12.5%;width: 87.5%;  max-width: 1400px; margin-top: 20vh;}
 #toc { padding-left: 15%;  }
+
+#toc ul.level-1 > li { margin-bottom: 30px }
+#toc ul.level-2 {
+ -webkit-column-count: 2;
+    -moz-column-count: 2;
+         column-count: 2;
+}
+
+
 
 #footer { color: #555; }
 

@@ -1,4 +1,13 @@
 <html>
+◊(define (get-level ptree-item) 
+   (define (iter ptree-item n) 
+     (if (equal? ptree-item 'pagetree-root)
+         n
+         (iter (parent ptree-item) (+ n 1))))
+   (iter ptree-item 0))
+
+◊(define (get-level-string ptree-item)
+   (string-append "level-" (number->string (get-level ptree-item))))
 
 ◊(define (toc-item x)
    (let ([sub-pages (children x)])
@@ -6,13 +15,13 @@
        (a [[href ,(string-append "/" (symbol->string x)) ]] 
           ,(->html (select-from-doc 'h1 x)))
        ,(if sub-pages
-           `(ul ,@(map toc-item sub-pages)
+           `(ul  [[class ,(get-level-string x) ]] ,@(map toc-item sub-pages)
                )
            (span)))))
 
 ◊(define (toc)
    (let ([child-pages (children here)])
-     (->html `(ul
+     (->html `(ul [[class ,(get-level-string here) ]]
               ,@(map toc-item child-pages)))))
 
 ◊(define prev-page (previous here))
