@@ -35,8 +35,10 @@
    book/principles/top-down-bottom-up.html
  }
  book/exploring-your-maps.html
- ◊book/ninja-skills/index.html{
- 
+ ◊book/mind-map-ninja-skills/index.html{
+   book/mind-map-ninja-skills/thinking-skills.html
+   book/mind-map-ninja-skills/emotional-skills.html
+   book/mind-map-ninja-skills/physical-skills.html
  }
  ◊book/here-be-dragons/index.html{
    book/here-be-dragons/dinosaurs.html
