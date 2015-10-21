@@ -44,7 +44,9 @@ chapter-title { font-family: "lato", sans-serif; font-weight: 700; font-size: 2r
 
 .navigation a { margin: 30px 30px }
 .navigation .home-link, 
-.navigation .chapter-link { font-size: 0.8em}
+.navigation .chapter-link,
+.navigation .prev-link { font-size: 0.8em}
+.navigation .next-link { color: #333; }
 
 
 /* Page specific */
