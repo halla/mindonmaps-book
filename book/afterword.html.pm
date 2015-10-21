@@ -1,6 +1,6 @@
 #lang pollen
 
-◊h1{Afterword}
+◊h1['class:"chapter-title"]{Afterword}
 
 Even after ten years of mind mapping I'm still learning. I'm constantly looking for ways to organize my maps in new and better ways. 
 

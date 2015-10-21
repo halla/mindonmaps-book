@@ -1,6 +1,6 @@
 #lang pollen 
 
-◊h1{Introduction}
+◊h1['class: "chapter-title"]{Introduction}
 
 This book is an introduction to thinking with mind maps. I'll first discuss why it is a good idea to use a computer for that. Then I'll present some exercises that you can do to get some hands on experience with personal reflection, studying and planning. In the chapter Working with your mind maps I'll discuss mind mapping in general, looking at common activities, recurring structures and patterns, and some principles and personal practices. I'll end with considering some elementary skills that you can work on to become a better mind mapper.
 

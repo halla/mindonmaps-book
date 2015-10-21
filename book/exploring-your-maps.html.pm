@@ -1,6 +1,6 @@
 #lang pollen
 
-◊h1{Exploring your maps}
+◊h1['class: "chapter-title"]{Exploring your maps}
 
 After some time you'll find that you've created yourself lots of different mind maps on many different subjects. You'll find recurring structures in your maps but also many differences between them. 
 

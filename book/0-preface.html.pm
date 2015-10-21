@@ -2,7 +2,7 @@
 ◊(define-meta page-title "Preface")
 ◊(define-meta page-subtitle "How I got into mind maps")
  
-◊h1{◊(hash-ref metas 'page-title)}
+◊h1['class:"chapter-title"]{◊(hash-ref metas 'page-title)}
 ◊page-subtitle{◊(hash-ref metas 'page-subtitle)}
 
 
