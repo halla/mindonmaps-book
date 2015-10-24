@@ -13,6 +13,8 @@ When you combine multiple maps together using links between them you create anot
 
 The bolded items in the above picture are maps that are related to this book writing project. In practice there are more maps involved but this here just for simplicity's sake. The current index is home map that contains links to the most important maps at the moment. I use it as a temporary storage for jotting down ideas and notes when finding the right map would be too much trouble. There is the main index that I can use as a starting point whenever I get lost or when I want to look at the big picture. The book project and content maps I already mentioned. In addition there is the map for writing as activity, which I use to gather notes and ideas related to the skill of writing in general. I can use that knowledge then later when working on my blog articles and, who knows, maybe my next book. Missing from the picture is, among others, a layer of indexes below the main one, for all the different content maps, activities and projects. We will discuss indexes later in this book.
 
+This is a simplified version of the map that I use for managing this project. 
+
 ◊img['src: "/book/images/introduction/examplemap1.png"]
 
-Let's take a closer look at one of the maps. This is a simplified version of the map that I use for managing this project. 
+
