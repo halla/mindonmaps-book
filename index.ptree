@@ -36,9 +36,23 @@
  }
  book/exploring-your-maps.html
  ◊book/mind-map-ninja-skills/index.html{
-   book/mind-map-ninja-skills/thinking-skills.html
-   book/mind-map-ninja-skills/emotional-skills.html
-   book/mind-map-ninja-skills/physical-skills.html
+   ◊book/mind-map-ninja-skills/thinking-skills/index.html{
+     book/mind-map-ninja-skills/thinking-skills/meta-hopping.html
+     book/mind-map-ninja-skills/thinking-skills/dimension-switching-and-scaling.html
+     book/mind-map-ninja-skills/thinking-skills/systems-thinking.html
+     book/mind-map-ninja-skills/thinking-skills/creativity.html
+     book/mind-map-ninja-skills/thinking-skills/communication.html
+   }
+   ◊book/mind-map-ninja-skills/emotional-skills/index.html{
+        book/mind-map-ninja-skills/emotional-skills/emotional-awareness.html
+        book/mind-map-ninja-skills/emotional-skills/detachment.html
+        book/mind-map-ninja-skills/emotional-skills/deferred-judgement.html
+        book/mind-map-ninja-skills/emotional-skills/acceptance.html
+   }
+   ◊book/mind-map-ninja-skills/physical-skills/index.html{
+      book/mind-map-ninja-skills/physical-skills/keyboard-shortcuts.html
+      book/mind-map-ninja-skills/physical-skills/touch-typing.html
+   }
  }
  ◊book/here-be-dragons/index.html{
    book/here-be-dragons/dinosaurs.html
