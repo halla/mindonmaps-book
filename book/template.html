@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html>
+◊(define (get-depth ptree-item)
+ 1)
+
+◊(define (get-depth-string ptree-item)
+   (string-append "depth-" (number->string (get-depth ptree-item))))
+
+◊(define (has-grandchildren? ptree-item) 
+   (let ([cs (children ptree-item)])
+     (if cs
+         (ormap children cs) 
+         #f)))
+
+◊(define (get-grandchildren-string ptree-item)
+   (if (has-grandchildren? ptree-item)
+       "has-grandchildren"
+       "no-grandchildren"))
+
 ◊(define (get-level ptree-item) 
    (define (iter ptree-item n) 
      (if (equal? ptree-item 'pagetree-root)
@@ -10,19 +27,26 @@
 ◊(define (get-level-string ptree-item)
    (string-append "level-" (number->string (get-level ptree-item))))
 
+◊(define (get-toc-class ptree-item)
+   (string-append (get-level-string ptree-item) " " (get-grandchildren-string ptree-item))
+)
+
+
 ◊(define (toc-item x)
    (let ([sub-pages (children x)])
      `(li        
        (a [[href ,(string-append "/" (symbol->string x)) ]] 
           ,(->html (select-from-doc 'h1 x)))
        ,(if sub-pages
-           `(ul  [[class ,(get-level-string x) ]] ,@(map toc-item sub-pages)
+           `(ul  [[class ,(get-toc-class x) ]] ,@(map toc-item sub-pages)
                )
            (span)))))
 
+
+
 ◊(define (toc)
    (let ([child-pages (children here)])
-     (->html `(ul [[class ,(get-level-string here) ]]
+     (->html `(ul [[class ,(get-toc-class here) ]]
               ,@(map toc-item child-pages)))))
 
 ◊(define prev-page (previous here))
