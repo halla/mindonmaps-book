@@ -11,7 +11,7 @@ And create a mind map for that.
 
 Do you complicate learning or associate it with bad feelings? Do you think that learning requires a teacher? Do you think it requires a school building or a formal course that takes place during predetermined semesters? Many have unhappy school memories, and the images that come to their mind are classrooms, bullies and grumpy teachers. Forget all that.
 
-◊blockquote{You are learning every day, whether you are aware of it or not}
+◊blockquote{You are learning every day, whether you are aware of it or not.}
 
 You are learning every day, whether you are aware of it or not. Even if you are living on autopilot, you are learning. You are enforcing your current behavior, becoming better at whatever it is you do daily, be it speaking a foreign language, cooking or drinking beer.
 
