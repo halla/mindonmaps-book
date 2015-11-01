@@ -46,3 +46,10 @@ Mousetrap.bind('right', Book.navigate.next);
 Mousetrap.bind('alt+up', Book.navigate.up);
 Mousetrap.bind('esc', Book.navigate.home);
 
+
+$('[title!=""]').qtip({
+  style: { 
+    classes: 'qtip-light',
+
+  }
+});
