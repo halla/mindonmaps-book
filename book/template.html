@@ -1,58 +1,8 @@
 <!DOCTYPE html>
 <html>
-◊(define (get-depth ptree-item)
- 1)
-
-◊(define (get-depth-string ptree-item)
-   (string-append "depth-" (number->string (get-depth ptree-item))))
-
-◊(define (has-grandchildren? ptree-item) 
-   (let ([cs (children ptree-item)])
-     (if cs
-         (ormap children cs) 
-         #f)))
-
-◊(define (get-grandchildren-string ptree-item)
-   (if (has-grandchildren? ptree-item)
-       "has-grandchildren"
-       "no-grandchildren"))
-
-◊(define (get-level ptree-item) 
-   (define (iter ptree-item n) 
-     (if (equal? ptree-item 'pagetree-root)
-         n
-         (iter (parent ptree-item) (+ n 1))))
-   (iter ptree-item 0))
-
-◊(define (get-level-string ptree-item)
-   (string-append "level-" (number->string (get-level ptree-item))))
-
-◊(define (get-toc-class ptree-item)
-   (string-append (get-level-string ptree-item) " " (get-grandchildren-string ptree-item))
-)
-
-
-◊(define (toc-item x)
-   (let ([sub-pages (children x)])
-     `(li        
-       (a [[href ,(string-append "/" (symbol->string x)) ]] 
-          ,(->html (select-from-doc 'h1 x)))
-       ,(if sub-pages
-           `(ul  [[class ,(get-toc-class x) ]] ,@(map toc-item sub-pages)
-               )
-           (span)))))
-
-
-
-◊(define (toc)
-   (let ([child-pages (children here)])
-     (->html `(ul [[class ,(get-toc-class here) ]]
-              ,@(map toc-item child-pages)))))
 
 ◊(define prev-page (previous here))
 ◊(define next-page (next here))
-◊(define (page-title page) (->html (select-from-doc 'h1 page)))
-
 
 <head>
 <meta charset="UTF-8">
@@ -62,7 +12,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="/book/styles/tufte.css" />
 
 <link rel="stylesheet" type="text/css" media="all" href="/book/styles/styles.css" />
-<link type="text/css" rel="stylesheet" href="/book/scripts/jquery.qtip.min.css" />
+<link type="text/css" rel="stylesheet" href="/book/lib/qtip/jquery.qtip.min.css" />
 
 <script type="text/javascript" src="/book/scripts/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="/book/scripts/hammer.min.js"></script>
@@ -86,27 +36,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 
 <div id="toc">
-  ◊when/block[(children here)]{ ◊toc{} }
+  ◊when/block[(children here)]{  ◊(toc here) }
 </div>
 
 
 <div id="footer">
   <div class="navigation">
-    ◊when/block[prev-page]{ <a class="prev-link" title="Prev: Left arrow" href="/◊|prev-page|">&larr; ◊(page-title prev-page)</a>}
+    ◊when/block[prev-page]{ <a class="prev-link" title="Previous page (← Left arrow)" href="/◊|prev-page|">&larr; ◊(page-title prev-page)</a>}
     
     ◊when/block[(not (equal? 'pagetree-root (parent here)))]{    
-    <a class="home-link" title="Home: Esc" href="/◊(next 'pagetree-root)">Home</a>
+    <a class="home-link" title="Home (Esc)" href="/◊(next 'pagetree-root)">Home</a>
     ◊when/block[(not (equal? 'pagetree-root (parent (parent here))))]{    
-    <a class="chapter-link" href="/◊(parent here)">Chapter</a>
+    <a class="chapter-link" href="/◊(parent here)" title="Chapter overview (alt + arrow up ↑)">Chapter</a>
     }}
     ◊when/block[next-page]{
-    <a class="next-link" title="Next: Right arrow" href="/◊|next-page|">◊(page-title next-page) &rarr; </a>}  
+    <a class="next-link" title="Next page (Right arrow &rarr;)" href="/◊|next-page|">◊(page-title next-page) &rarr; </a>}  
   </div>
   <div class="page-meta"><span class="book-title"><a href="/">Mind on Maps</a></span> — expand your memory, index your mind, organize your life</div>
 </div>
 
-
-<script type="text/javascript" src="/book/scripts/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="/book/lib/qtip/jquery.qtip.min.js"></script>
 
 <script type="text/javascript" src="/book/scripts/site.js"></script>
 </body>
