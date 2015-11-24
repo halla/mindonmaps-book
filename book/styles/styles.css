@@ -43,13 +43,17 @@ ol,ul { width: 75% }
 #footer .page-meta a:link, #footer .page-meta a:visited { background: none; }
 #footer .page-meta a:hover { color: #aaa; }
 
-h1 { margin-top: 10vh; font-size: 2.5rem; }
+h1 { margin-top: 10vh; font-size: 2.5rem; margin-bottom: 1em;}
 h1#main-title { margin-top: 0; text-transform: uppercase; letter-spacing: 0.04em;  font-size: 3rem;}
-h1.chapter-title { text-transform: uppercase; letter-spacing: 0.04em; }
+h1.chapter-title { text-transform: uppercase; letter-spacing: 0.04em;  }
 .tagline {  text-transform: uppercase; letter-spacing: 0.05em; font-size: 1rem; margin-bottom: 50px}
 
 chapter-title { font-family: "lato", sans-serif; font-weight: 700; font-size: 2rem; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 10vh; }
 
+page-subtitle { font-style: italic; }
+
+
+leading-words { text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.9em}
 
 .navigation { text-transform: uppercase; letter-spacing:0.04em; margin: 150px 100px 100px; font-size: 1.2rem}
 
