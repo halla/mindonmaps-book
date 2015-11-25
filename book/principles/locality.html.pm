@@ -2,7 +2,7 @@
 
 ◊h1{Locality}
 
-Think about your home, your desk, your kitchen. What are the things that you keep most easily accessible? It's probably the things you need the most often. Those things that you need once a month you can keep inside a cupboard and those you need only once a year you can keep buried somewhere in the basement. In the same way you can organize your maps so that the things you need most often are most easily accessible and those you don't need are moved out of the way.
+◊leading-words{Think} about your home, your desk, your kitchen. What are the things that you keep most easily accessible? It's probably the things you need the most often. Those things that you need once a month you can keep inside a cupboard and those you need only once a year you can keep buried somewhere in the basement. In the same way you can organize your maps so that the things you need most often are most easily accessible and those you don't need are moved out of the way.
 
 Then you group items with a similar function together. If you have the salt here you probably don't put the pepper on the other side of the room. The kitchen might have some non-food functions too. You might have pen and paper in the there so you can write down things for a shopping list whenever you see something is missing, or maybe you want to leave notes to other family members, and the kitchen table or the door of the fridge happens to act as the bulletin board in the house. 
 

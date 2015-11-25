@@ -3,7 +3,7 @@
 
 ◊h1{All-eaters}
 
-This is typically a result of sloppy concepts and perfectionism. They are mostly harmless, but can be quite confusing. You try to figure out a perfect categorization for the whole universe and get seduced by some brilliant idea. Soon you find out that if you look close enough, you can put all the things in the world to this box. Strangely enough, you can often find an opposing idea and fit everything to that box too. You can learn to live with all-eaters and they can be very useful too. In fact, some all-eaters appear in this book too, such as the “content” category. The way to understand these is to realize that the problem is, again, in box-thinking. The world doesn't come in neatly defined boxes, it's us who put it there. We try to put shades of grey into boxes called 'black' and 'white'. 
+◊leading-words{This is} typically a result of sloppy concepts and perfectionism. They are mostly harmless, but can be quite confusing. You try to figure out a perfect categorization for the whole universe and get seduced by some brilliant idea. Soon you find out that if you look close enough, you can put all the things in the world to this box. Strangely enough, you can often find an opposing idea and fit everything to that box too. You can learn to live with all-eaters and they can be very useful too. In fact, some all-eaters appear in this book too, such as the “content” category. The way to understand these is to realize that the problem is, again, in box-thinking. The world doesn't come in neatly defined boxes, it's us who put it there. We try to put shades of grey into boxes called 'black' and 'white'. 
 
 ◊h2{Time: Past-Future}
 

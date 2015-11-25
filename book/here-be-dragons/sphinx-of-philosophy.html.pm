@@ -2,7 +2,7 @@
 
 ◊h1{Sphinx of philosophy}
 
-If you spend a lot of time thinking with your mind maps you are going to run into questions that have no good answers. As you know or don't know, the sphinx, besides a big old statue with a broken nose, is a mythological figure who asked riddles. If you couldn't answer his question... Well, you really wanted to be able to answer his question. The sphinx of philosophy is similar, only that there are no right answers. You fail if you don't really believe your answer yourself. You pass if you do have a good answer that you are comfortable with.
+◊leading-words{If you} spend a lot of time thinking with your mind maps you are going to run into questions that have no good answers. As you know or don't know, the sphinx, besides a big old statue with a broken nose, is a mythological figure who asked riddles. If you couldn't answer his question... Well, you really wanted to be able to answer his question. The sphinx of philosophy is similar, only that there are no right answers. You fail if you don't really believe your answer yourself. You pass if you do have a good answer that you are comfortable with.
 
 Many people consider subjects like philosophy as something utterly impractical. To me it's just the opposite. It's true that it's hard to feed a family just by contemplating the nature of bread, but that's exactly what you might find yourself doing if you create a mind map called 'bread'. When you want to organize and categorize the content in your mind maps ever better, you need to be able to make finer distinctions between your thoughts and the reality.
 

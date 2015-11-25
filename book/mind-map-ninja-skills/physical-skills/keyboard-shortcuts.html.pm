@@ -2,7 +2,7 @@
 
 ◊h1{Keyboard shortcuts}
 
-What's one thing that people who are exceptionally efficient with some computer application have in common? They do most of the work using the keyboard and rarely need to touch the mouse. 
+◊leading-words{What's one} thing that people who are exceptionally efficient with some computer application have in common? They do most of the work using the keyboard and rarely need to touch the mouse. 
 
 Learn to use your keyboard for all the most frequent tasks. Start with the easy ones, like copy, cut, paste, insert new, edit, delete and save. But don't stop there. Learn to move things around, to group and ungroup items, to create new maps and to link them together. Pay attention to tasks you do repeatedly and see if there is a shortcut for that. 
 

@@ -5,7 +5,7 @@
 
 ◊h1{Learn something new}
 
-Some people believe that learning is hard. Sure, it can be hard at times, but there are ways to make it easier. Know yourself, make a plan and immerse yourself in the subject. Make sure you have a solid idea of what learning means in the first place.
+◊leading-words{Some people} believe that learning is hard. Sure, it can be hard at times, but there are ways to make it easier. Know yourself, make a plan and immerse yourself in the subject. Make sure you have a solid idea of what learning means in the first place.
 
 And create a mind map for that.
 

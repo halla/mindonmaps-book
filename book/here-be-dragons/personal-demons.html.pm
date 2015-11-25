@@ -3,7 +3,7 @@
 
 ◊h1{Personal demons}
 
-Think about something uncomfortable. Oh, you don't want to? That's the whole point. When you start digging into your thoughts you are bound to find stuff that you have intentionally wanted to forget. You might want to sharpen your emotional skills to be able to deal with these better. If you meet some serious dragons, we are starting to talk about therapy here. I don't want to claim that you should try to fix yourself. Better do that with a help of a professional. 
+◊leading-words{Think about} something uncomfortable. Oh, you don't want to? That's the whole point. When you start digging into your thoughts you are bound to find stuff that you have intentionally wanted to forget. You might want to sharpen your emotional skills to be able to deal with these better. If you meet some serious dragons, we are starting to talk about therapy here. I don't want to claim that you should try to fix yourself. Better do that with a help of a professional. 
 
 All the demons, big or small, are blocking your thoughts. They can be easy ones, like some bad memory from your childhood where some helpful adult told you how bad you are at something like math, drawing, athletics or whatever. You have associated so much bad feelings to the subject that you have stopped progressing in it. How could you get better at math if you start feeling bad from just the thought of doing it?
 

@@ -2,7 +2,7 @@
 
 ◊h1{Meta-hopping}
 
-The term meta is used at least in two a bit different ways that's good to be aware of. 
+◊leading-words{The term} ◊em{meta} is used at least in two a bit different ways that's good to be aware of. 
 
 The first one means a higher level of abstraction. We can talk about a specific house or houses in general, on a meta level. You want to be able to take generic concepts and take them down to concrete level. You also want to be able to take concrete observations and make abstractions, to see how they relate together at a more generic level.
 

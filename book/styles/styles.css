@@ -14,12 +14,16 @@ ol,ul { width: 75% }
 #main-content { padding-left: 12.5%;width: 87.5%;  max-width: 1400px; margin-top: 20vh;}
 #toc { padding-left: 15%; margin-top: 40px; width: 75%; max-width: 1400px;  }
 #toc ul { width: 80%; }
-#toc ul.level-1 > li { margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.04em,}
+#toc ul.level-1 > li { margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.04em;  }
 
-#toc ul.level-1 > li > a { display:block; margin-bottom: 10px; }
+#toc ul.level-1 > li > a { display:block; margin-bottom: 10px; font-weight: bold;}
 
 #toc ul.level-2 > li {
     text-transform: none;
+}
+
+#toc ul.level-3 li {
+    font-style: italic;
 }
 
 /* tablets and up */
@@ -53,7 +57,7 @@ chapter-title { font-family: "lato", sans-serif; font-weight: 700; font-size: 2r
 page-subtitle { font-style: italic; }
 
 
-leading-words { text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.9em}
+leading-words { text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85em}
 
 .navigation { text-transform: uppercase; letter-spacing:0.04em; margin: 150px 100px 100px; font-size: 1.2rem}
 

@@ -3,7 +3,7 @@
 
 ◊h1{Revolution}
 
-Sometimes the maintenance is not enough, things go forward too slowly for your liking. You get frustrated with the current system, it's not up to date, hasn't been able to keep up with the changing times. It's time for a revolution. Throw off the old maps and start with a blank slate.
+◊leading-words{Sometimes} the maintenance is not enough, things go forward too slowly for your liking. You get frustrated with the current system, it's not up to date, hasn't been able to keep up with the changing times. It's time for a revolution. Throw off the old maps and start with a blank slate.
 
 The new ideology will give you new strength and lots of ideas at first. You might end up with a radically better organization of your maps, but it's never guaranteed. Sooner or later the everyday arrives. Revolutions are not always that successful, you'll notice that newer doesn't always mean better. You'll go back to old habits, the old things need to be done too, and the ideology itself is not enough for that. You'll start to appreciate some things that you had in place in the past. Make sure you don't throw all the babies with the bathwater when you do radical changes. 
 

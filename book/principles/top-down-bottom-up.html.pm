@@ -3,7 +3,7 @@
 
 ◊h1{Top-down, bottom-up}
 
-Sometimes you start with generating a lot of ideas and only later organize them to categories, when you start noticing patterns. On the other hand, sometimes you already have the categories, a clearly defined set of questions to answer or boxes to be fill. These can be called ◊em{bottom-up} and ◊em{top-down} approaches respectively.
+◊leading-words{Sometimes} you start with generating a lot of ideas and only later organize them to categories, when you start noticing patterns. On the other hand, sometimes you already have the categories, a clearly defined set of questions to answer or boxes to be fill. These can be called ◊em{bottom-up} and ◊em{top-down} approaches respectively.
 
 ◊blockquote{ If you want to think out-of-the-box, don't put yourself in a box in the first place.}
 

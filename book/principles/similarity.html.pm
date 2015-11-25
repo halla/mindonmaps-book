@@ -2,7 +2,7 @@
 
 ◊h1{Similarity}
 
-When I first got excited about mind mapping, I really made maps about everything that came to mind. Each map ended up a little bit different, and I had trouble figuring out a good structure that would fit them all. 
+◊leading-words{When I first} got excited about mind mapping, I really made maps about everything that came to mind. Each map ended up a little bit different, and I had trouble figuring out a good structure that would fit them all. 
 
 It was quite confusing to jump from one map to another and always having to start with the question of what in the world I've been thinking here. The more maps I created the harder it became to manage all that diversity. I tried many different ways to organize it all, and I gradually gravitated towards simpler and simpler structures. 
 

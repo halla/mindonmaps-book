@@ -2,7 +2,7 @@
 
 ◊h1{Refactoring}
 
-Your first map starts to grow. The more you think and write down things, the bigger the map gets. You rarely delete things from your map. If some items seem irrelevant at the moment, you create a new branch in your map to store those. 
+◊leading-words{Your first} map starts to grow. The more you think and write down things, the bigger the map gets. You rarely delete things from your map. If some items seem irrelevant at the moment, you create a new branch in your map to store those. 
 
 If a single branch of the map grows much faster than the others you start to think how to best return balance to your map. You need to refactor, or restructure, your mind maps. One way is to create a new branch on top level, or to come up with another way of categorizing the items. You can then move items from the overgrown branch back closer to the center. If you first try to categorize your items to branches called 'big' and 'small', you can add a category 'medium', if the two categories become too big. If you notice that most of the items are in one category, you can switch to another set of categories. Maybe dividing by color instead of size would make more sense, and you could switch to categories 'black' and 'white' instead.
 

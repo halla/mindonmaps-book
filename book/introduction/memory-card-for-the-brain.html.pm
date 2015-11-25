@@ -2,7 +2,7 @@
 
 ◊h1{Memory card for the brain}
 
-Chances are that you do some sort of thinking every day, and not many people would oppose being able to “think better”, whatever that means.
+◊leading-words{Chances are} that you do some sort of thinking every day, and not many people would oppose being able to “think better”, whatever that means.
 
 Think about mental arithmetic. You can calculate 2 + 2 in your mind, but 345983274592834 + 2345234545 is difficult for most of us. That doesn't mean you can't do it at all. You just can't do it in your mind that easily. Take a paper an a pencil and you can solve the sum in a a minute if you want. 
 

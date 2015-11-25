@@ -2,7 +2,7 @@
 
 ◊h1{Self-biography exercise}
 
-Two acquaintances meet after years. The other one can’t remember their last meeting while the other one cheerfully says: ◊em{“Oh yes, it was the Summer of 2005, we met in that cafe in London, on a Friday afternoon as I was returning home from work.}  Which one reminds you of yourself?
+◊leading-words{Two acquaintances} meet after years. The other one can’t remember their last meeting while the other one cheerfully says: ◊em{“Oh yes, it was the Summer of 2005, we met in that cafe in London, on a Friday afternoon as I was returning home from work.}  Which one reminds you of yourself?
 
 In the Preface I mentioned how I first got excited about mind mapping: I started to write down everything I could remember that had happened to me. This is about that same thing in the form of a self-biography exercise that you can follow, along with discussion on why it makes sense to document your past.
 

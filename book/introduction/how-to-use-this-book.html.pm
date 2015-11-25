@@ -2,7 +2,7 @@
 
 ◊h1{How to use this book}
 
-You can read the book in order, or you can pick just those topics that draw your interests. Whichever works for you. However, I'd suggest that you read the introduction chapter first to get a better idea of what the book is about. 
+◊leading-words{You can} read the book in order, or you can pick just those topics that draw your interests. Whichever works for you. However, I'd suggest that you read the introduction chapter first to get a better idea of what the book is about. 
 
 
 ◊h2{Go full-screen}

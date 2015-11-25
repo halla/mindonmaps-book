@@ -2,7 +2,7 @@
 
 ◊h1{Let's get to work - start a project}
 
-So what is a project anyway? Sounds like work, huh? I call it a project when you want to get something done, something big enough that you need to do some planning and keep track of things. Or, in mind maps, it's big enough that you have at least one dedicated map for it, and probably it spans multiple maps. It's a way to get organized. The time scale can be a week or a year, whatever makes sense to your project. 
+◊leading-words{What is} a project anyway? Sounds like work, huh? I call it a project when you want to get something done, something big enough that you need to do some planning and keep track of things. Or, in mind maps, it's big enough that you have at least one dedicated map for it, and probably it spans multiple maps. It's a way to get organized. The time scale can be a week or a year, whatever makes sense to your project. 
 
 If you did the future design exercise, you should have something in your mind maps to start working on. Or maybe your life is perfect already, in which case you could start a book or a movie project to let others know how you made it happen.
 
