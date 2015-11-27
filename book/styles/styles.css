@@ -34,7 +34,7 @@
     font-style: italic;
 }
 
-body { padding-left: 0; width: 100%; font-family: gandhi_serif; }
+body { padding-left: 0; width: 100%; font-family: gandhi_serif; margin:0}
 
 p, ol, ul {
     font-size: 1.3rem;
@@ -48,13 +48,13 @@ blockquote {font-style: italic;
 margin-top: 80px;
 margin-bottom: 80px;}
 
-wip { font-style: italic; font-size: 0.8em}
+wip { font-style: italic; font-size: 0.8em; text-align:center; display: block; margin: 20px; color: #555}
 .author {font-family: 'rubik'}
 
 ol,ul { width: 75% }
 
 a:link {          
-  background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#aaa, #aaa);
+  background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#aaa, #eee);
 background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
          background-repeat: no-repeat, no-repeat, repeat-x;
          text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
@@ -62,6 +62,7 @@ background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
 }
 
 
+#progress-bar { border-bottom: 30px solid #eee; margin-left: 12.5%; max-width: 1400px}
 #header {  padding-left: 12.5%;  padding-top: 5px; margin: auto; color: #ccc; }
 
 
@@ -74,6 +75,7 @@ background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
 
 #toc ul.level-2 > li {
     text-transform: none;
+    letter-spacing: 0;
 }
 
 #toc ul.level-3 li {
@@ -102,13 +104,13 @@ background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
 h1 { margin-top: 10vh; font-size: 2.5rem; margin-bottom: 1em;}
 h1#main-title { margin-top: 0; text-transform: uppercase; letter-spacing: 0.04em;  font-size: 4rem;}
 h1.chapter-title { text-transform: uppercase; letter-spacing: 0.04em;  }
-.tagline {  text-transform: uppercase; letter-spacing: 0.06em; font-size: 1rem; margin-bottom: 50px; font-family: 'rubik'}
+.tagline {  text-transform: uppercase; letter-spacing: 0.06em; font-size: 1rem; margin-bottom: 50px; font-family: 'rubik'; font-style: italic;}
 
 .cover-title { overflow: hidden; border-top: 1px solid; margin-bottom: 40px; }
 .cover-title .left-container {float: left; margin-right: 40px; }
 .cover-title h1 {  border-top: 1px solid;  padding-top: 20px; margin-bottom: 7px}
-.cover-title .author { text-align: right; margin-right: .5em}
-.cover-title .tagline { float: left; padding-top: 25px; font-size: 1.5rem}
+.cover-title .author { text-align: right; margin-right: .5em; color: #555; }
+.cover-title .tagline { float: left; padding-top: 25px; font-size: 1.5rem; color: #333; }
 
 
 chapter-title { font-family: "lato", sans-serif; font-weight: 700; font-size: 2rem; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 10vh; }
@@ -132,3 +134,6 @@ body.mind-on-maps .navigation { text-align:right; padding-right: 12.5%; }
 body.mind-on-maps a.cover-image:link { background: none; }
 body.mind-on-maps #main-content { margin-top: 0}
 body.mind-on-maps root > p { margin: 0}
+body.mind-on-maps #progress-bar { display: none; }
+
+#progress-bar { display: none; } /* TBD */
