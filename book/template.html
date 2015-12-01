@@ -60,6 +60,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="page-meta"><span class="book-title"><a href="/">Mind on Maps</a></span> — expand your memory, index your mind, organize your life</div>
 </div>
 
+<div id="edge-navi">
+    ◊when/block[prev-page]{ <a class="prev-link" title="Previous:  ◊(page-title prev-page) (← Left arrow)" href="/◊|prev-page|">&larr;</a>}
+    ◊when/block[next-page]{ <a class="next-link" title="Next: ◊(page-title next-page) (Right arrow &rarr;)" href="/◊|next-page|"> &rarr; </a>}  
+</div>
+
 <script type="text/javascript" src="/book/lib/qtip/jquery.qtip.min.js"></script>
 
 <script type="text/javascript" src="/book/scripts/site.js"></script>

@@ -62,6 +62,10 @@ background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
 }
 
 
+quiet { font-size: 0.7em; font-style: italic; }
+loud { text-transform: uppercase; letter-spacing: 0.04em; font-size: 1.3em;}
+
+
 #progress-bar { border-bottom: 30px solid #eee; margin-left: 12.5%; max-width: 1400px}
 #header {  padding-left: 12.5%;  padding-top: 5px; margin: auto; color: #ccc; }
 
@@ -94,9 +98,9 @@ background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
 
 
 
-#footer { color: #555; font-family: "Rubik"}
+#footer { color: #555; font-family: "Rubik"; padding-left: 12.5%;}
 
-#footer .page-meta { text-transform: uppercase; letter-spacing: 0.06em;  padding-left: 12.5%;margin: 200px 0 50px 0; color: #999; width: 65%; max-width: 1400px; text-align: right;}
+#footer .page-meta { text-transform: uppercase; letter-spacing: 0.06em; margin: 200px 0 50px 0; color: #999; width: 55%; max-width: 1400px; text-align: right;}
 #footer .page-meta a:link, #footer .page-meta a:visited { background: none; }
 #footer .page-meta a:hover { color: #aaa; }
 
@@ -120,7 +124,7 @@ page-subtitle { font-style: italic; }
 
 leading-words { text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.85em}
 
-.navigation { text-transform: uppercase; letter-spacing:0.04em; margin: 150px 100px 100px 0; font-size: 1.2rem; padding-left: 12.5%}
+.navigation { text-transform: uppercase; letter-spacing:0.04em; margin: 150px 100px 100px 0; font-size: 1.2rem; }
 
 .navigation a { margin: 30px 30px }
 .navigation .home-link, 
@@ -128,6 +132,11 @@ leading-words { text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.
 .navigation .prev-link { font-size: 0.8em; margin-left: 0}
 .navigation .next-link { color: #333; }
 
+
+#edge-navi a:link {   position: fixed; max-width: 10%;  min-width: 100px; font-size: 3em; background: none;  color: transparent;  padding: 50vh 10px 0; top: 0; height: 100%; }
+#edge-navi .next-link {  right: 0; }
+#edge-navi .prev-link {  left: 0; }
+#edge-navi a:hover { color: #aaa; }
 
 /* Page specific */
 body.mind-on-maps .navigation { text-align:right; padding-right: 12.5%; }
