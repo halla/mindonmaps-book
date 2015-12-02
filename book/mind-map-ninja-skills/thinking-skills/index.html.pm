@@ -2,5 +2,7 @@
 
 ◊h1{Thinking skills}
 
-◊leading-words{How} exactly do you think? It helps to become aware of the ways of your thoughts in order to better direct and modify them at will. 
+◊leading-words{How} exactly do you think? How can you improve? Become aware of the ways of your thoughts and you can learn to direct and modify them at will. 
+
+Thinking starts with ◊em{analysis} --- taking things apart --- and ◊em{synthesis} --- putting things together. It means finding similarities, differences and relationships between things. By thinking you can develop understanding of the world around you, as well as create new ideas.
 
