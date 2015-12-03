@@ -11,6 +11,6 @@
 }
 
 
-◊wip{(This book is a work in progress. All feedback is welcome.)}
+◊wip{(This book is a work in progress. All feedback is welcome. ◊br[] Give me a shout on Twitter ◊a['href: "https://twitter.com/AnttiHalla"]{@AnttiHalla} if you like.)}
 ◊br[]
 
