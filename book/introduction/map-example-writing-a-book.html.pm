@@ -1,20 +1,33 @@
 #lang pollen
 
 
-◊h1{Map Example: Writing a book}
+◊h1{Case: Writing a book }
 
-◊leading-words{I used} mind maps extensively while writing this book as well. I'll use this as an example project to demonstrate points along the way throughout this book. Even if you don't know anything about writing or publishing, the same ideas pretty much work for any other subject too. Just replace the writing in your mind with something that is more familiar to you. Mind mapping as a skill, at least the way I see it, is about understanding the structure of the information and the process of working with it. You can then apply that knowledge to any content, be it writing, studying, running a business, running a family, running a marathon, building a house, traveling or whatever you are or get interested about.
+◊leading-words{This book} was created with the help of mind maps. At first the book was just a single idea among others. A little later it was a bunch of ideas related to the topic. Then a dedicated mind map just for writing the book. Then another map for managing the project. The maps have grown along with the project.
 
-While writing I was collecting ideas, making notes, modifying the outline of the book in one map. I was also managing the whole project in another. In addition to finalizing the book there are those things I need to take into account and to do before the project was done, the book out there, some people know about it and maybe someone ends up buying it. I also had the archives of mind maps from the last ten years that I could use as a source of ideas and inspiration, as well as to gather understanding how my mind mapping had evolved through these years.
+Even if you don't know much about writing or publishing, the same ideas pretty much work for any other subject too. Just replace the writing in your mind with something that is more familiar to you. 
 
-When you combine multiple maps together using links between them you create another map. In the software I used to draw the following diagrams I can't see the resulting map directly, but I can imagine what it looks like and draw it.
+Mind mapping as a skill, at least the way I see it, is about understanding the structure of the information and the process of working with it. You can then apply that knowledge to any content, be it writing, studying, running a business, running a family, running a marathon, building a house, traveling or whatever you are or get interested about.
 
-◊img['src: "/book/images/introduction/metamap2.png"]
 
-The bolded items in the above picture are maps that are related to this book writing project. In practice there are more maps involved but this here just for simplicity's sake. The current index is home map that contains links to the most important maps at the moment. I use it as a temporary storage for jotting down ideas and notes when finding the right map would be too much trouble. There is the main index that I can use as a starting point whenever I get lost or when I want to look at the big picture. The book project and content maps I already mentioned. In addition there is the map for writing as activity, which I use to gather notes and ideas related to the skill of writing in general. I can use that knowledge then later when working on my blog articles and, who knows, maybe my next book. Missing from the picture is, among others, a layer of indexes below the main one, for all the different content maps, activities and projects. We will discuss indexes later in this book.
+◊h2{Book content}
+While writing I was collecting ideas, making notes and playing with the outline of the book in one map. I didn't have a clear idea of the book contents beforehand making the creative process exploratory. Sometimes I would sit down with the mind maps, listing out ideas and keywords, working my way to complete sentences. Sometimes I would work with the draft and write whatever comes to mind, and only afterwards go to the mind maps and analyze what I just wrote. 
 
-This is a simplified version of the map that I use for managing this project. 
 
-◊img['src: "/book/images/introduction/examplemap1.png"]
+◊h2{Project management}
+It soon became clear to me that the writing the book is only a part of the project. I wanted to publish the book myself which meant that I would need to also do everything that the publisher normally does. I needed to get organized and learn about publishing and marketing, among other things.
+
+I created a map to organize the whole. Managing a project is different kind of activity than writing. They require different mindsets. Putting those activities in separate mind maps helped me switching between these two roles.
+
+
+◊h2{Resource maps}
+
+Any other map that would help me in the project I would call a ◊em{resource} map. These included topics like writing, English language, typography and publishing. I also had the archives of mind maps from the last ten years that I could use as a source of ideas and inspiration, as well as to gather understanding how my mind mapping had evolved through these years.
+
+◊h2{Putting the maps together}
+
+Writing of this book was just one thing going on in my life. To make it part of my other activities I had to link them together. I had one ◊em{home map} that was the starting point whenever I opened the mind map program. From there I had links to relevant other mind maps, both for business and personal life. This book project was one of them. 
+
+
 
 
