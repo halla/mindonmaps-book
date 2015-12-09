@@ -49,9 +49,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="navigation">
     ◊when/block[prev-page]{ <a class="prev-link" title="Previous page (← Left arrow)" href="/◊|prev-page|">&larr; ◊(page-title prev-page)</a>}
     
-    ◊when/block[(not (equal? 'pagetree-root (parent here)))]{    
-    <a class="home-link" title="Home (Esc)" href="/◊(next 'pagetree-root)">Home</a>
-    ◊when/block[(not (equal? 'pagetree-root (parent (parent here))))]{    
+    ◊when/block[(not (equal? #f (parent here)))]{    
+    <a class="home-link" title="Home (Esc)" href="/book/">Home</a>
+    ◊when/block[(not (equal? #f (parent (parent here))))]{    
     <a class="chapter-link" href="/◊(parent here)" title="Chapter overview (alt + arrow up ↑)">Chapter</a>
     }}
     ◊when/block[next-page]{

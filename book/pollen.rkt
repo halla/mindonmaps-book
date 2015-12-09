@@ -1,22 +1,25 @@
 #lang racket
 
+(provide toc)
+(provide page-title)
+(provide gtm-tag)
+(provide page-class)
+(provide root)
+
+(require "local-config.rkt")
+
 (require pollen/pagetree)
 (require pollen/decode txexpr)
- (require pollen/template)
+(require pollen/template)
 
 (define (root . elements)
    (make-txexpr 'root null (decode-elements elements
      #:txexpr-elements-proc detect-paragraphs
      #:string-proc (compose smart-quotes smart-dashes))))
-(provide root)
-
 
 (define (page-class name-string) (string-downcase (string-replace name-string " " "-")))
-(provide page-class)
 
-
-(define (get-depth ptree-item)
- 1)
+(define (get-depth ptree-item) 1)
 
 (define (get-depth-string ptree-item)
    (string-append "depth-" (number->string (get-depth ptree-item))))
@@ -34,7 +37,7 @@
 
 (define (get-level ptree-item) 
    (define (iter ptree-item n) 
-     (if (equal? ptree-item 'pagetree-root)
+     (if (equal? ptree-item #f)
          n
          (iter (parent ptree-item) (+ n 1))))
    (iter ptree-item 0))
@@ -66,10 +69,25 @@
 
 (define (page-title page) (->html (select-from-doc 'h1 page)))
 
+(module+ test
+  (require rackunit)
+
+  (define pt '(pagetree-root carticle.html (article.html (subarticle.html subsubarticle.html)) barticle.html))
+  (check-equal? 1 1)
+  (check-equal? #t (pagetree? pt))
+  (current-pagetree pt)
+  (check-equal? 'subarticle.html (first (children 'article.html)))
+
+  (check-equal? (page-class "SoMe PagE") "some-page")
+  (check-equal? (get-depth-string 'carticle.html) "depth-1")
+  ;(check-equal? (has-grandchildren? 'article.html) #t)
+  (check-equal? (get-grandchildren-string 'article.html) "has-grandchildren")
+  (check-equal? (get-grandchildren-string 'carticle.html) "no-grandchildren")
+  (check-equal? (parent 'article.html) #f) ; used to be 'pagetree-root
+  (check-equal? (get-level 'article.html) 1)
+  
+  )
 
 
-(require "local-config.rkt")
 
-(provide toc)
-(provide page-title)
-(provide gtm-tag)
+
