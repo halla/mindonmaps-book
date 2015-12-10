@@ -11,6 +11,7 @@
 }
 
 
-◊wip{(This book is a work in progress. All feedback is welcome. ◊br[] Give me a shout on Twitter ◊a['href: "https://twitter.com/AnttiHalla"]{@AnttiHalla} if you like.)}
+
+◊wip{You are reading a free early access version of a book. ◊br[] This book is a work in progress. All feedback is welcome. ◊br[] Give me a shout on Twitter ◊a['href: "https://twitter.com/AnttiHalla"]{@AnttiHalla} if you like.}
 ◊br[]
 
