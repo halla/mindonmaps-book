@@ -11,6 +11,6 @@ To keep an open mind, start from the bottom and let the content drive the struct
 
 Notice that the bottom-up approach is basically impossible with pen and paper mind maps, because editing is so hard. You move towards the top by grouping items together into categories. You do this ◊em{after} you've already written things down, which means heavy editing. If you need to do this on paper, a better way would be to use sticky notes which you can move around easily.
 
-Directing and limiting --- moving top-down --- can also be a good thing, especially when you are repeating something. Effeciency becomes more valuable than creativity. The more you repeat something, the less you'll probably want to think about it! You can define the categories first, and then fill them out like a checklist. Nevertheless, you'll want to make sure that every aspect gets covered. 
+Directing and limiting --- moving top-down --- can also be a good thing, especially when you are repeating something. Efficiency becomes more valuable than creativity. The more you repeat something, the less you'll probably want to think about it! You can define the categories first, and then fill them out like a checklist. Nevertheless, you'll want to make sure that every aspect gets covered. 
 
 

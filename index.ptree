@@ -18,23 +18,29 @@
    book/map-your-life/start-a-project.html
  }
  ◊book/working-with-mind-maps/index.html{
-   book/working-with-mind-maps/information-filing.html
-   book/working-with-mind-maps/orientation.html
-   book/working-with-mind-maps/refactoring.html
-   book/working-with-mind-maps/moving-between-maps.html
-   book/working-with-mind-maps/maintenance.html
-   book/working-with-mind-maps/evolution.html
-   book/working-with-mind-maps/revolution.html
-   book/working-with-mind-maps/review-reflect.html
+   ◊book/working-with-mind-maps/common-activities/index.html{
+    book/working-with-mind-maps/common-activities/information-filing.html
+    book/working-with-mind-maps/common-activities/orientation.html
+    book/working-with-mind-maps/common-activities/refactoring.html
+    book/working-with-mind-maps/common-activities/moving-between-maps.html
+    book/working-with-mind-maps/common-activities/maintenance.html
+    book/working-with-mind-maps/common-activities/evolution.html
+    book/working-with-mind-maps/common-activities/revolution.html
+    book/working-with-mind-maps/common-activities/review-reflect.html
+   }
+   ◊book/working-with-mind-maps/recurring-structures/index.html{
+     book/working-with-mind-maps/recurring-structures/exploring-your-maps.html
+     book/working-with-mind-maps/recurring-structures/map-types.html
+   }
+   ◊book/working-with-mind-maps/guiding-principles/index.html{
+      book/working-with-mind-maps/guiding-principles/locality.html
+      book/working-with-mind-maps/guiding-principles/information-hiding.html
+      book/working-with-mind-maps/guiding-principles/modularity.html
+      book/working-with-mind-maps/guiding-principles/similarity.html
+      book/working-with-mind-maps/guiding-principles/top-down-bottom-up.html
+   }
+
  }
- ◊book/principles/index.html{
-   book/principles/locality.html
-   book/principles/information-hiding.html
-   book/principles/modularity.html
-   book/principles/similarity.html
-   book/principles/top-down-bottom-up.html
- }
- book/exploring-your-maps.html
  ◊book/mind-map-ninja-skills/index.html{
    ◊book/mind-map-ninja-skills/thinking-skills/index.html{
      book/mind-map-ninja-skills/thinking-skills/meta-hopping.html

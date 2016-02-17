@@ -3,7 +3,9 @@
 
 ◊h1{Case: Writing a book }
 
-◊leading-words{This book} was created with the help of mind maps. At first the book was just a single idea among others. A little later it was a bunch of ideas related to the topic. Then a dedicated mind map just for writing the book. Then another map for managing the project. The maps have grown along with the project.
+◊leading-words{This book} was created with the help of mind maps. The maps have grown along with the project, starting from single ideas and keywords to thousands of notes, spread across multiple mind maps.
+
+At first the book was just an idea among others, in a list of ideas I might want to do someday. If I would get another idea related to it, I would store them in the same place, and soon I had a bunch of ideas related to the topic. Then a dedicated mind map just for writing the book. Then another map for managing the project. 
 
 Even if you don't know much about writing or publishing, the same ideas pretty much work for any other subject too. Just replace the writing in your mind with something that is more familiar to you. 
 
